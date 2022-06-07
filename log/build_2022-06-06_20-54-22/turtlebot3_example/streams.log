@@ -1,0 +1,27 @@
+[0.961s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_example --uninstall --editable --build-directory /home/fnikolay/turtlebot3_ws/build/turtlebot3_example/build
+[1.272s] running develop
+[1.482s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_example --uninstall --editable --build-directory /home/fnikolay/turtlebot3_ws/build/turtlebot3_example/build
+[1.485s] Invoking command in '/home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_example': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/fnikolay/turtlebot3_ws/build/turtlebot3_example/build install --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_example --record /home/fnikolay/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed
+[1.755s] running egg_info
+[1.755s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[1.755s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[1.756s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[1.756s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[1.756s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[1.797s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[1.898s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[1.899s] running build
+[1.899s] running build_py
+[1.900s] running install
+[1.901s] running install_lib
+[1.904s] running install_data
+[1.904s] running install_egg_info
+[1.906s] removing '/home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info' (and everything under it)
+[1.906s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info
+[1.907s] running install_scripts
+[1.925s] Installing turtlebot3_obstacle_detection script to /home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.925s] Installing turtlebot3_patrol_client script to /home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.925s] Installing turtlebot3_patrol_server script to /home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.925s] Installing turtlebot3_position_control script to /home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.926s] writing list of installed files to '/home/fnikolay/turtlebot3_ws/build/turtlebot3_example/install.log'
+[1.952s] Invoked command in '/home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/fnikolay/turtlebot3_ws/build/turtlebot3_example/build install --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_example --record /home/fnikolay/turtlebot3_ws/build/turtlebot3_example/install.log --single-version-externally-managed

@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000667] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000878] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001210] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001314] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001360] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001407] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001472] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001530] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001578] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001630] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001678] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001715] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001757] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001797] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.002475] (kf_move) JobQueued: {'identifier': 'kf_move', 'dependencies': OrderedDict()}
+[0.002821] (kf_move) JobStarted: {'identifier': 'kf_move'}
+[0.099664] (-) TimerEvent: {}
+[0.199981] (-) TimerEvent: {}
+[0.300284] (-) TimerEvent: {}
+[0.400612] (-) TimerEvent: {}
+[0.500962] (-) TimerEvent: {}
+[0.601181] (-) TimerEvent: {}
+[0.701459] (-) TimerEvent: {}
+[0.801724] (-) TimerEvent: {}
+[0.850300] (kf_move) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/kf_move', 'build', '--build-base', '/home/fnikolay/turtlebot3_ws/build/kf_move/build', 'install', '--prefix', '/home/fnikolay/turtlebot3_ws/install/kf_move', '--record', '/home/fnikolay/turtlebot3_ws/build/kf_move/install.log', '--single-version-externally-managed'], 'cwd': '/home/fnikolay/turtlebot3_ws/src/kf_move', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'fnikolay', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1948', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/fnikolay', 'OLDPWD': '/home/fnikolay/turtlebot3_ws/src', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'MANDATORY_PATH': '/usr/share/gconf/mate.mandatory.path', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'fnikolay', 'WINDOWID': '69206179', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/mate.default.path', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'GAZEBO_MODEL_PATH': ':/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/FNikolay:@/tmp/.ICE-unix/1818,unix/FNikolay:/tmp/.ICE-unix/1818', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/fnikolay/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/fnikolay', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/fnikolay/turtlebot3_ws/build/kf_move', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.901865] (-) TimerEvent: {}
+[1.002237] (-) TimerEvent: {}
+[1.102505] (-) TimerEvent: {}
+[1.152620] (kf_move) StdoutLine: {'line': b'running egg_info\n'}
+[1.153387] (kf_move) StdoutLine: {'line': b'writing ../../build/kf_move/kf_move.egg-info/PKG-INFO\n'}
+[1.153654] (kf_move) StdoutLine: {'line': b'writing dependency_links to ../../build/kf_move/kf_move.egg-info/dependency_links.txt\n'}
+[1.153859] (kf_move) StdoutLine: {'line': b'writing entry points to ../../build/kf_move/kf_move.egg-info/entry_points.txt\n'}
+[1.154184] (kf_move) StdoutLine: {'line': b'writing requirements to ../../build/kf_move/kf_move.egg-info/requires.txt\n'}
+[1.154312] (kf_move) StdoutLine: {'line': b'writing top-level names to ../../build/kf_move/kf_move.egg-info/top_level.txt\n'}
+[1.197084] (kf_move) StdoutLine: {'line': b"reading manifest file '../../build/kf_move/kf_move.egg-info/SOURCES.txt'\n"}
+[1.197889] (kf_move) StdoutLine: {'line': b"writing manifest file '../../build/kf_move/kf_move.egg-info/SOURCES.txt'\n"}
+[1.198090] (kf_move) StdoutLine: {'line': b'running build\n'}
+[1.198198] (kf_move) StdoutLine: {'line': b'running build_py\n'}
+[1.198665] (kf_move) StdoutLine: {'line': b'running install\n'}
+[1.199287] (kf_move) StdoutLine: {'line': b'running install_lib\n'}
+[1.200669] (kf_move) StdoutLine: {'line': b'running install_data\n'}
+[1.201173] (kf_move) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.202590] (-) TimerEvent: {}
+[1.202775] (kf_move) StdoutLine: {'line': b"removing '/home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.203137] (kf_move) StdoutLine: {'line': b'Copying ../../build/kf_move/kf_move.egg-info to /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move-0.0.0-py3.8.egg-info\n'}
+[1.204055] (kf_move) StdoutLine: {'line': b'running install_scripts\n'}
+[1.222336] (kf_move) StdoutLine: {'line': b"writing list of installed files to '/home/fnikolay/turtlebot3_ws/build/kf_move/install.log'\n"}
+[1.248436] (kf_move) CommandEnded: {'returncode': 0}
+[1.264788] (kf_move) JobEnded: {'identifier': 'kf_move', 'rc': 0}
+[1.265884] (-) EventReactorShutdown: {}

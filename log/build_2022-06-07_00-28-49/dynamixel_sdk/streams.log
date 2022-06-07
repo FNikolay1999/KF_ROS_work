@@ -1,0 +1,40 @@
+[0.233s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/dynamixel_sdk -- -j4 -l4
+[1.793s] [100%] Built target dynamixel_sdk
+[1.808s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/dynamixel_sdk -- -j4 -l4
+[1.859s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fnikolay/turtlebot3_ws/build/dynamixel_sdk
+[1.872s] -- Install configuration: ""
+[1.873s] -- Execute custom install script
+[1.874s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.874s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.897s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.938s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.938s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.957s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.958s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.958s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.959s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.959s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.997s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.002s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.005s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.018s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.168s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.168s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.192s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.196s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.196s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.196s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.208s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.230s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.269s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.273s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.274s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.274s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.275s] -- Symlinking: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.301s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.307s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.307s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.309s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.311s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.353s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.744s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/fnikolay/turtlebot3_ws/build/dynamixel_sdk

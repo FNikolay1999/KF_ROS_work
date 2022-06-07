@@ -1,0 +1,36 @@
+[1.131s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop --uninstall --editable --build-directory /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build
+[1.476s] running develop
+[1.701s] Removing /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.779s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop --uninstall --editable --build-directory /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build
+[1.781s] Invoking command in '/home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build install --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop --record /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[2.098s] running egg_info
+[2.099s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[2.099s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[2.099s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[2.099s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[2.100s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[2.146s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.147s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.147s] running build
+[2.147s] running build_py
+[2.147s] running install
+[2.148s] running install_lib
+[2.149s] creating /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[2.149s] creating /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[2.150s] copying /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/Simulator.py -> /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[2.160s] copying /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[2.161s] copying /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/Kalman_filter_3rd_order.py -> /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[2.169s] copying /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[2.170s] copying /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop
+[2.170s] byte-compiling /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/Simulator.py to Simulator.cpython-38.pyc
+[2.172s] byte-compiling /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-38.pyc
+[2.172s] byte-compiling /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/Kalman_filter_3rd_order.py to Kalman_filter_3rd_order.cpython-38.pyc
+[2.172s] byte-compiling /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc
+[2.176s] byte-compiling /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-38.pyc
+[2.176s] running install_data
+[2.176s] running install_egg_info
+[2.179s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.4-py3.8.egg-info
+[2.181s] running install_scripts
+[2.205s] Installing teleop_keyboard script to /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.206s] writing list of installed files to '/home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/install.log'
+[2.256s] Invoked command in '/home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build install --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop --record /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed

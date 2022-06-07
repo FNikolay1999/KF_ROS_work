@@ -1,0 +1,27 @@
+[0.950s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop --uninstall --editable --build-directory /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build
+[1.281s] running develop
+[1.519s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop --uninstall --editable --build-directory /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build
+[1.522s] Invoking command in '/home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build install --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop --record /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[1.868s] running egg_info
+[1.868s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[1.868s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[1.868s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[1.869s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[1.869s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[1.924s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.924s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.924s] running build
+[1.924s] running build_py
+[1.924s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[1.941s] running install
+[1.942s] running install_lib
+[1.946s] copying /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script
+[1.952s] byte-compiling /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-38.pyc
+[1.953s] running install_data
+[1.953s] running install_egg_info
+[1.953s] removing '/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.4-py3.8.egg-info' (and everything under it)
+[1.953s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages/turtlebot3_teleop-2.1.4-py3.8.egg-info
+[1.953s] running install_scripts
+[1.968s] Installing teleop_keyboard script to /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.969s] writing list of installed files to '/home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/install.log'
+[2.019s] Invoked command in '/home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/build install --prefix /home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop --record /home/fnikolay/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed

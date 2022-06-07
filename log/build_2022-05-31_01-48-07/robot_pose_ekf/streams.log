@@ -1,0 +1,28 @@
+[0.089s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf': /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/robot_pose_ekf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/robot_pose_ekf
+[0.669s] -- The C compiler identification is GNU 9.4.0
+[1.064s] -- The CXX compiler identification is GNU 9.4.0
+[1.116s] -- Check for working C compiler: /usr/bin/cc
+[1.403s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.405s] -- Detecting C compiler ABI info
+[1.693s] -- Detecting C compiler ABI info - done
+[1.722s] -- Detecting C compile features
+[1.749s] -- Detecting C compile features - done
+[1.754s] -- Check for working CXX compiler: /usr/bin/c++
+[1.993s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.996s] -- Detecting CXX compiler ABI info
+[2.191s] -- Detecting CXX compiler ABI info - done
+[2.211s] -- Detecting CXX compile features
+[2.215s] -- Detecting CXX compile features - done
+[2.227s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.228s] -- Checking for module 'orocos-bfl'
+[2.232s] --   No package 'orocos-bfl' found
+[2.232s] CMake Error at /usr/share/cmake-3.16/Modules/FindPkgConfig.cmake:463 (message):
+[2.233s]   A required package was not found
+[2.233s] Call Stack (most recent call first):
+[2.233s]   /usr/share/cmake-3.16/Modules/FindPkgConfig.cmake:643 (_pkg_check_modules_internal)
+[2.233s]   CMakeLists.txt:6 (pkg_check_modules)
+[2.234s] 
+[2.234s] 
+[2.234s] -- Configuring incomplete, errors occurred!
+[2.237s] See also "/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf/CMakeFiles/CMakeOutput.log".
+[2.241s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf' returned '1': /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/robot_pose_ekf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/robot_pose_ekf

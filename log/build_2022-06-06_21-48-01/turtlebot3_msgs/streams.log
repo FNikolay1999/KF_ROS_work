@@ -1,0 +1,200 @@
+[0.046s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/home/fnikolay/turtlebot3_ws/install/kf_move:/opt/ros/foxy /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs
+[0.127s] -- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)
+[0.129s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.129s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.729s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.901s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.255s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.282s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[1.352s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.761s] -- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[1.762s] -- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[1.764s] -- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[1.765s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.477s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.478s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.517s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.517s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.599s] -- Found ament_cmake_flake8: 0.9.6 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[2.600s] -- Found ament_cmake_pep257: 0.9.6 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[2.621s] -- Configuring done
+[2.710s] -- Generating done
+[2.720s] -- Build files have been written to: /home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs
+[2.732s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/home/fnikolay/turtlebot3_ws/install/kf_move:/opt/ros/foxy /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/turtlebot3_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs
+[2.736s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/home/fnikolay/turtlebot3_ws/install/kf_move:/opt/ros/foxy /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs -- -j4 -l4
+[2.865s] [  2%] Built target turtlebot3_msgs__cpp
+[2.865s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[2.918s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[2.970s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[3.001s] [ 54%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[3.002s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[3.022s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[3.089s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[3.135s] [ 80%] Built target turtlebot3_msgs
+[3.174s] [ 81%] Built target turtlebot3_msgs__py
+[3.242s] [ 91%] Built target turtlebot3_msgs__python
+[3.348s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[3.349s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[3.362s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.765s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/home/fnikolay/turtlebot3_ws/install/kf_move:/opt/ros/foxy /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs -- -j4 -l4
+[4.718s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/home/fnikolay/turtlebot3_ws/install/kf_move:/opt/ros/foxy /usr/bin/cmake --install /home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs
+[4.740s] -- Install configuration: ""
+[4.740s] -- Execute custom install script
+[4.741s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs
+[4.742s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__functions.h
+[4.742s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.h
+[4.742s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__type_support.h
+[4.742s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.h
+[4.743s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__functions.h
+[4.743s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.h
+[4.743s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__type_support.h
+[4.744s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__functions.h
+[4.744s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.h
+[4.744s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__type_support.h
+[4.745s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__functions.h
+[4.745s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.h
+[4.745s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__type_support.h
+[4.745s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.745s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.h
+[4.745s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.h
+[4.746s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.h
+[4.746s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__functions.h
+[4.746s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__struct.h
+[4.746s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__type_support.h
+[4.746s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__functions.h
+[4.747s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.h
+[4.747s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__type_support.h
+[4.747s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/dqn.h
+[4.747s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.h
+[4.748s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh
+[4.748s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv
+[4.749s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[4.749s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+[4.749s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[4.750s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+[4.750s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.750s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_c.h
+[4.750s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_c.h
+[4.751s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so
+[4.752s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[4.752s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.752s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[4.753s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.753s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.754s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_cpp.hpp
+[4.754s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[4.754s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.754s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h
+[4.755s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[4.755s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[4.755s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[4.755s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.755s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_c.h
+[4.756s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h
+[4.757s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__builder.hpp
+[4.757s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__struct.hpp
+[4.757s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__traits.hpp
+[4.757s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/patrol.hpp
+[4.757s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp
+[4.758s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp
+[4.758s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp
+[4.758s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__builder.hpp
+[4.758s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__struct.hpp
+[4.758s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__traits.hpp
+[4.759s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__builder.hpp
+[4.759s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__struct.hpp
+[4.759s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__traits.hpp
+[4.759s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sensor_state.hpp
+[4.759s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/sound.hpp
+[4.760s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/version_info.hpp
+[4.760s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__builder.hpp
+[4.761s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__struct.hpp
+[4.764s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__traits.hpp
+[4.764s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__builder.hpp
+[4.764s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__struct.hpp
+[4.764s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__traits.hpp
+[4.764s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/dqn.hpp
+[4.764s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/sound.hpp
+[4.765s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[4.765s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[4.766s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[4.766s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[4.766s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_cpp.hpp
+[4.767s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[4.767s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh
+[4.767s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv
+[4.768s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py
+[4.768s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/__init__.py
+[4.768s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sensor_state.py
+[4.769s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_sound.py
+[4.769s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/msg/_version_info.py
+[4.769s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/__init__.py
+[4.771s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_dqn.py
+[4.771s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/srv/_sound.py
+[4.771s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/__init__.py
+[4.771s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/action/_patrol.py
+[4.771s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[4.772s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[4.772s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[4.773s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__python.so
+[4.773s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl
+[4.773s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl
+[4.774s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl
+[4.774s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl
+[4.774s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.idl
+[4.775s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl
+[4.775s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg
+[4.775s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg
+[4.776s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg
+[4.776s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv
+[4.776s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg
+[4.777s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg
+[4.778s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.srv
+[4.778s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Request.msg
+[4.778s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Response.msg
+[4.779s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action
+[4.779s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs
+[4.779s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs
+[4.780s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh
+[4.780s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv
+[4.780s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh
+[4.781s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv
+[4.781s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash
+[4.781s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh
+[4.781s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh
+[4.782s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv
+[4.782s] -- Symlinking: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv
+[4.793s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs
+[4.796s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake
+[4.797s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.797s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.797s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.798s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.798s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.798s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.799s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake
+[4.799s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake
+[4.799s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml
+[4.799s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+[4.800s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+[4.800s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+[4.801s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+[4.801s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+[4.859s] Compiling '/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages/turtlebot3_msgs/__init__.py'...
+[4.864s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport.cmake
+[4.865s] -- Installing: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.865s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.865s] -- Installing: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.865s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake
+[4.866s] -- Installing: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.866s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_generator_cppExport.cmake
+[4.866s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.866s] -- Installing: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.866s] -- Up-to-date: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake
+[4.866s] -- Installing: /home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.875s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/home/fnikolay/turtlebot3_ws/install/kf_move:/opt/ros/foxy /usr/bin/cmake --install /home/fnikolay/turtlebot3_ws/build/turtlebot3_msgs

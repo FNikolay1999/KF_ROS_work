@@ -1,0 +1,13 @@
+[0.046s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf': /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/robot_pose_ekf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/robot_pose_ekf
+[0.074s] -- Checking for module 'orocos-bfl'
+[0.080s] --   No package 'orocos-bfl' found
+[0.080s] CMake Error at /usr/share/cmake-3.16/Modules/FindPkgConfig.cmake:463 (message):
+[0.080s]   A required package was not found
+[0.080s] Call Stack (most recent call first):
+[0.080s]   /usr/share/cmake-3.16/Modules/FindPkgConfig.cmake:643 (_pkg_check_modules_internal)
+[0.080s]   CMakeLists.txt:6 (pkg_check_modules)
+[0.080s] 
+[0.080s] 
+[0.080s] -- Configuring incomplete, errors occurred!
+[0.081s] See also "/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf/CMakeFiles/CMakeOutput.log".
+[0.082s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf' returned '1': /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/robot_pose_ekf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/robot_pose_ekf

@@ -1,0 +1,37 @@
+[3.284s] Invoking command in '/home/fnikolay/turtlebot3_ws/src/my_package': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/fnikolay/turtlebot3_ws/build/my_package/build install --prefix /home/fnikolay/turtlebot3_ws/install/my_package --record /home/fnikolay/turtlebot3_ws/build/my_package/install.log --single-version-externally-managed
+[3.562s] running egg_info
+[3.563s] creating ../../build/my_package/my_package.egg-info
+[3.563s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[3.563s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[3.563s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[3.564s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[3.564s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[3.671s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.744s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.745s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[3.746s] running build
+[3.746s] running build_py
+[3.746s] creating /home/fnikolay/turtlebot3_ws/build/my_package/build
+[3.747s] creating /home/fnikolay/turtlebot3_ws/build/my_package/build/lib
+[3.747s] creating /home/fnikolay/turtlebot3_ws/build/my_package/build/lib/my_package
+[3.747s] copying my_package/my_node.py -> /home/fnikolay/turtlebot3_ws/build/my_package/build/lib/my_package
+[3.751s] copying my_package/__init__.py -> /home/fnikolay/turtlebot3_ws/build/my_package/build/lib/my_package
+[3.752s] running install
+[3.755s] running install_lib
+[3.756s] creating /home/fnikolay/turtlebot3_ws/install/my_package/lib/python3.8/site-packages/my_package
+[3.756s] copying /home/fnikolay/turtlebot3_ws/build/my_package/build/lib/my_package/my_node.py -> /home/fnikolay/turtlebot3_ws/install/my_package/lib/python3.8/site-packages/my_package
+[3.756s] copying /home/fnikolay/turtlebot3_ws/build/my_package/build/lib/my_package/__init__.py -> /home/fnikolay/turtlebot3_ws/install/my_package/lib/python3.8/site-packages/my_package
+[3.757s] byte-compiling /home/fnikolay/turtlebot3_ws/install/my_package/lib/python3.8/site-packages/my_package/my_node.py to my_node.cpython-38.pyc
+[3.757s] byte-compiling /home/fnikolay/turtlebot3_ws/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[3.757s] running install_data
+[3.757s] creating /home/fnikolay/turtlebot3_ws/install/my_package/share/ament_index
+[3.757s] creating /home/fnikolay/turtlebot3_ws/install/my_package/share/ament_index/resource_index
+[3.757s] creating /home/fnikolay/turtlebot3_ws/install/my_package/share/ament_index/resource_index/packages
+[3.757s] copying resource/my_package -> /home/fnikolay/turtlebot3_ws/install/my_package/share/ament_index/resource_index/packages
+[3.757s] copying package.xml -> /home/fnikolay/turtlebot3_ws/install/my_package/share/my_package
+[3.757s] running install_egg_info
+[3.760s] Copying ../../build/my_package/my_package.egg-info to /home/fnikolay/turtlebot3_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[3.760s] running install_scripts
+[3.778s] Installing my_node script to /home/fnikolay/turtlebot3_ws/install/my_package/lib/my_package
+[3.779s] writing list of installed files to '/home/fnikolay/turtlebot3_ws/build/my_package/install.log'
+[3.824s] Invoked command in '/home/fnikolay/turtlebot3_ws/src/my_package' returned '0': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/fnikolay/turtlebot3_ws/build/my_package/build install --prefix /home/fnikolay/turtlebot3_ws/install/my_package --record /home/fnikolay/turtlebot3_ws/build/my_package/install.log --single-version-externally-managed

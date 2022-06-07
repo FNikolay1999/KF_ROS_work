@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target turtlebot3_drive[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[ 37%] Built target obstacles
+[ 62%] Built target obstacle2
+[ 87%] Built target obstacle1
+[01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:[m[K In constructor ‘[01m[KTurtlebot3Drive::Turtlebot3Drive()[m[K’:
+[01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[KposeStamped_pub_[m[K’ was not declared in this scope
+   45 |   [01;31m[KposeStamped_pub_[m[K = this->create_publisher<geometry_msgs::msg::PoseStamped>("poseStamped", qos);
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:65:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   45 |   poseStamped_pub_ = this->create_publisher<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>("poseStamped", qos);
+      |                                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:65:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtlebot3Drive::create_publisher<<expression error> >(const char [12], rclcpp::QoS&)[m[K’
+   45 |   poseStamped_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("poseStamped", qos[01;31m[K)[m[K;
+      |                                                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.hpp:22[m[K,
+                 from [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:17[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   71 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 |   poseStamped_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("poseStamped", qos[01;31m[K)[m[K;
+      |                                                                                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/turtlebot3_drive.dir/build.make:63: CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/turtlebot3_drive.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

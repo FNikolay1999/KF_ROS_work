@@ -1,0 +1,25 @@
+running develop
+Removing /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf-move.egg-link (link to .)
+running egg_info
+writing ../../build/kf_move/kf_move.egg-info/PKG-INFO
+writing dependency_links to ../../build/kf_move/kf_move.egg-info/dependency_links.txt
+writing entry points to ../../build/kf_move/kf_move.egg-info/entry_points.txt
+writing requirements to ../../build/kf_move/kf_move.egg-info/requires.txt
+writing top-level names to ../../build/kf_move/kf_move.egg-info/top_level.txt
+reading manifest file '../../build/kf_move/kf_move.egg-info/SOURCES.txt'
+writing manifest file '../../build/kf_move/kf_move.egg-info/SOURCES.txt'
+running build
+running build_py
+copying kf_move/kf_move.py -> /home/fnikolay/turtlebot3_ws/build/kf_move/build/lib/kf_move
+running install
+running install_lib
+creating /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move
+copying /home/fnikolay/turtlebot3_ws/build/kf_move/build/lib/kf_move/kf_move.py -> /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move
+copying /home/fnikolay/turtlebot3_ws/build/kf_move/build/lib/kf_move/__init__.py -> /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move
+byte-compiling /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move/kf_move.py to kf_move.cpython-38.pyc
+byte-compiling /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../build/kf_move/kf_move.egg-info to /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/fnikolay/turtlebot3_ws/build/kf_move/install.log'

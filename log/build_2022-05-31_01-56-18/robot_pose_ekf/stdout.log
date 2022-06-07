@@ -1,0 +1,4 @@
+-- Checking for module 'orocos-bfl'
+--   No package 'orocos-bfl' found
+-- Configuring incomplete, errors occurred!
+See also "/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf/CMakeFiles/CMakeOutput.log".

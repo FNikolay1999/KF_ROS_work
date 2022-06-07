@@ -1,0 +1,34 @@
+[0.095s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_description:/home/fnikolay/turtlebot3_ws/install/turtlebot3:/home/fnikolay/turtlebot3_ws/install/turtlebot3_simulations:/home/fnikolay/turtlebot3_ws/install/turtlebot3_bringup:/home/fnikolay/turtlebot3_ws/install/turtlebot3_node:/home/fnikolay/turtlebot3_ws/install/turtlebot3_navigation2:/home/fnikolay/turtlebot3_ws/install/turtlebot3_fake_node:/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/turtlebot3_gazebo:/home/fnikolay/turtlebot3_ws/install/turtlebot3_cartographer:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy:/opt/ros/galactic /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/turtlebot3_gazebo -- -j4 -l4
+[1.465s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[2.372s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[2.449s] [ 37%] Built target obstacles
+[2.452s] [ 62%] Built target obstacle2
+[2.456s] [ 87%] Built target obstacle1
+[9.774s] [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:[m[K In constructor ‘[01m[KTurtlebot3Drive::Turtlebot3Drive()[m[K’:
+[9.775s] [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[KposeStamped_pub_[m[K’ was not declared in this scope
+[9.775s]    45 |   [01;31m[KposeStamped_pub_[m[K = this->create_publisher<geometry_msgs::msg::PoseStamped>("poseStamped", qos);
+[9.775s]       |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[9.775s] [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:65:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[9.775s]    45 |   poseStamped_pub_ = this->create_publisher<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>("poseStamped", qos);
+[9.775s]       |                                                                 [01;31m[K^~~~~~~~~~~[m[K
+[9.775s] [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:65:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[9.775s] [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtlebot3Drive::create_publisher<<expression error> >(const char [12], rclcpp::QoS&)[m[K’
+[9.776s]    45 |   poseStamped_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("poseStamped", qos[01;31m[K)[m[K;
+[9.776s]       |                                                                                                [01;31m[K^[m[K
+[9.776s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[9.776s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[9.776s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[9.776s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[9.776s]                  from [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.hpp:22[m[K,
+[9.776s]                  from [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:17[m[K:
+[9.776s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[9.776s]    71 | [01;36m[KNode[m[K::create_publisher(
+[9.777s]       | [01;36m[K^~~~[m[K
+[9.777s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.777s] [01m[K/home/fnikolay/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp:45:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.777s]    45 |   poseStamped_pub_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("poseStamped", qos[01;31m[K)[m[K;
+[9.777s]       |                                                                                                [01;31m[K^[m[K
+[12.621s] make[2]: *** [CMakeFiles/turtlebot3_drive.dir/build.make:63: CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o] Error 1
+[12.622s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/turtlebot3_drive.dir/all] Error 2
+[12.622s] make: *** [Makefile:141: all] Error 2
+[12.624s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_gazebo' returned '2': CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_description:/home/fnikolay/turtlebot3_ws/install/turtlebot3:/home/fnikolay/turtlebot3_ws/install/turtlebot3_simulations:/home/fnikolay/turtlebot3_ws/install/turtlebot3_bringup:/home/fnikolay/turtlebot3_ws/install/turtlebot3_node:/home/fnikolay/turtlebot3_ws/install/turtlebot3_navigation2:/home/fnikolay/turtlebot3_ws/install/turtlebot3_fake_node:/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/turtlebot3_gazebo:/home/fnikolay/turtlebot3_ws/install/turtlebot3_cartographer:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk_examples:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy:/opt/ros/galactic /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/turtlebot3_gazebo -- -j4 -l4

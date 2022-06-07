@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target turtlebot3_drive[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[ 37%] Built target obstacles
+[ 62%] Built target obstacle2
+[ 87%] Built target obstacle1

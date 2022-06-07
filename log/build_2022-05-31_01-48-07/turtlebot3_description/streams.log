@@ -1,0 +1,45 @@
+[0.199s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy:/opt/ros/galactic /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/turtlebot3_description
+[0.594s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.700s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.083s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.896s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[3.225s] -- Configuring done
+[3.264s] -- Generating done
+[3.266s] -- Build files have been written to: /home/fnikolay/turtlebot3_ws/build/turtlebot3_description
+[3.396s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy:/opt/ros/galactic /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/turtlebot3_description
+[3.399s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy:/opt/ros/galactic /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/turtlebot3_description -- -j4 -l4
+[3.523s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy:/opt/ros/galactic /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/turtlebot3_description -- -j4 -l4
+[3.560s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy:/opt/ros/galactic /usr/bin/cmake --install /home/fnikolay/turtlebot3_ws/build/turtlebot3_description
+[3.572s] -- Install configuration: ""
+[3.573s] -- Execute custom install script
+[3.752s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[3.842s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[3.881s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[3.882s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[3.883s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[3.883s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[3.884s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[3.885s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[3.885s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[3.885s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[3.887s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[3.888s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[3.888s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[3.888s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[3.889s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[3.889s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[3.927s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[3.928s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[3.928s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[3.929s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[3.930s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[3.930s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[3.931s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[3.931s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[3.932s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[3.932s] -- Symlinking: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[3.943s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[3.944s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[3.945s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[3.945s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[3.949s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fnikolay/turtlebot3_ws/install/turtlebot3_teleop:/home/fnikolay/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy:/opt/ros/galactic /usr/bin/cmake --install /home/fnikolay/turtlebot3_ws/build/turtlebot3_description

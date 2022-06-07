@@ -1,0 +1,51 @@
+[0.099s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/turtlebot3_node
+[0.131s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.424s] -- Found dynamixel_sdk: 3.7.40 (/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.426s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.458s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.899s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[0.903s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.008s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.063s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.065s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.305s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.402s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.414s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.427s] -- Found tf2_ros: 0.13.13 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.904s] -- Found turtlebot3_msgs: 2.2.1 (/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[2.124s] -- Configuring done
+[2.155s] -- Generating done
+[2.157s] -- Build files have been written to: /home/fnikolay/turtlebot3_ws/build/turtlebot3_node
+[2.173s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/turtlebot3_node
+[2.177s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[2.302s] [ 85%] Built target turtlebot3_node_lib
+[2.368s] [100%] Built target turtlebot3_ros
+[2.379s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fnikolay/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[2.493s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fnikolay/turtlebot3_ws/build/turtlebot3_node
+[2.508s] -- Install configuration: ""
+[2.518s] -- Execute custom install script
+[2.518s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[2.518s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[2.519s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[2.519s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[2.519s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[2.519s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[2.519s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[2.519s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[2.519s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[2.520s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[2.520s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[2.520s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[2.520s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[2.520s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[2.520s] -- Symlinking: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[2.523s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[2.523s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.524s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[2.524s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[2.524s] -- Up-to-date symlink: /home/fnikolay/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[2.533s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/fnikolay/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fnikolay/turtlebot3_ws/build/turtlebot3_node

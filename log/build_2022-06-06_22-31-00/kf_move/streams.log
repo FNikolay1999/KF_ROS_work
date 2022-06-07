@@ -1,0 +1,28 @@
+[1.078s] Invoking command in '/home/fnikolay/turtlebot3_ws/build/kf_move': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fnikolay/turtlebot3_ws/install/kf_move --uninstall --editable --build-directory /home/fnikolay/turtlebot3_ws/build/kf_move/build
+[1.530s] running develop
+[1.749s] Removing /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf-move.egg-link (link to .)
+[2.088s] Invoked command in '/home/fnikolay/turtlebot3_ws/build/kf_move' returned '0': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/fnikolay/turtlebot3_ws/install/kf_move --uninstall --editable --build-directory /home/fnikolay/turtlebot3_ws/build/kf_move/build
+[2.089s] Invoking command in '/home/fnikolay/turtlebot3_ws/src/kf_move': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kf_move build --build-base /home/fnikolay/turtlebot3_ws/build/kf_move/build install --prefix /home/fnikolay/turtlebot3_ws/install/kf_move --record /home/fnikolay/turtlebot3_ws/build/kf_move/install.log --single-version-externally-managed
+[2.479s] running egg_info
+[2.480s] writing ../../build/kf_move/kf_move.egg-info/PKG-INFO
+[2.481s] writing dependency_links to ../../build/kf_move/kf_move.egg-info/dependency_links.txt
+[2.481s] writing entry points to ../../build/kf_move/kf_move.egg-info/entry_points.txt
+[2.483s] writing requirements to ../../build/kf_move/kf_move.egg-info/requires.txt
+[2.483s] writing top-level names to ../../build/kf_move/kf_move.egg-info/top_level.txt
+[2.543s] reading manifest file '../../build/kf_move/kf_move.egg-info/SOURCES.txt'
+[2.544s] writing manifest file '../../build/kf_move/kf_move.egg-info/SOURCES.txt'
+[2.544s] running build
+[2.544s] running build_py
+[2.544s] running install
+[2.546s] running install_lib
+[2.559s] creating /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move
+[2.559s] copying /home/fnikolay/turtlebot3_ws/build/kf_move/build/lib/kf_move/kf_move.py -> /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move
+[2.580s] copying /home/fnikolay/turtlebot3_ws/build/kf_move/build/lib/kf_move/__init__.py -> /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move
+[2.581s] byte-compiling /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move/kf_move.py to kf_move.cpython-38.pyc
+[2.583s] byte-compiling /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move/__init__.py to __init__.cpython-38.pyc
+[2.583s] running install_data
+[2.583s] running install_egg_info
+[2.586s] Copying ../../build/kf_move/kf_move.egg-info to /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf_move-0.0.0-py3.8.egg-info
+[2.586s] running install_scripts
+[2.619s] writing list of installed files to '/home/fnikolay/turtlebot3_ws/build/kf_move/install.log'
+[2.651s] Invoked command in '/home/fnikolay/turtlebot3_ws/src/kf_move' returned '0': PYTHONPATH=/home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kf_move build --build-base /home/fnikolay/turtlebot3_ws/build/kf_move/build install --prefix /home/fnikolay/turtlebot3_ws/install/kf_move --record /home/fnikolay/turtlebot3_ws/build/kf_move/install.log --single-version-externally-managed

@@ -1,0 +1,2 @@
+Invoking command in '/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf': /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/robot_pose_ekf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/robot_pose_ekf
+Invoked command in '/home/fnikolay/turtlebot3_ws/build/robot_pose_ekf' returned '1': /usr/bin/cmake /home/fnikolay/turtlebot3_ws/src/robot_pose_ekf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/fnikolay/turtlebot3_ws/install/robot_pose_ekf

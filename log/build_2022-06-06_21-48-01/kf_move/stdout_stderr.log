@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing kf_move.egg-info/PKG-INFO
+writing dependency_links to kf_move.egg-info/dependency_links.txt
+writing entry points to kf_move.egg-info/entry_points.txt
+writing requirements to kf_move.egg-info/requires.txt
+writing top-level names to kf_move.egg-info/top_level.txt
+reading manifest file 'kf_move.egg-info/SOURCES.txt'
+writing manifest file 'kf_move.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/fnikolay/turtlebot3_ws/install/kf_move/lib/python3.8/site-packages/kf-move.egg-link (link to .)
+
+Installed /home/fnikolay/turtlebot3_ws/build/kf_move
+running install_data
